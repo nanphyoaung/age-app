@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <form action="#">
+                <div class="form-container">
+                    <div class="block">
+                        <label for="day">Day</label>
+                        <input type="number" placeholder="DD" id="day">
+                        <small></small>
+                    </div>
+                    <div class="block">
+                        <label for="month">Month</label>
+                        <input type="number" placeholder="MM" id="month">
+                        <small></small>
+                    </div>
+                    <div class="block">
+                        <label for="year">Year</label>
+                        <input type="number" placeholder="YY" id="year">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="block-sumit">
+                    <hr>
+                    <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+                </div>
+            </form>
+            <div class="number">
+                <h1><span id="outputY">- -</span>years</h1>
+                <h1><span id="outputM">- -</span>months</h1>
+                <h1><span id="outputD">- -</span>days</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+body{
+    background-color:hsl(0, 1%, 44%) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px 20px 100px 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.form-container{
+    display: flex;
+    gap: 20px;
+}
+.form-container .block label{
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    color:hsl(0, 1%, 44%) ;
+}
+.form-container .block input{
+    width: 100px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: hsl(0, 0%, 8%) ;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 86%);
+    outline: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .50);
+}
+.block-sumit{
+   position: relative;
+}
+.block-sumit .btn{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    border-radius: 50%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    background-color:hsl(259, 100%, 65%) ;
+    cursor: pointer;
+}
+.block-sumit .btn:hover{
+    background-color: black;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+}
+.number h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.number h1 span{
+    color:hsl(259, 100%, 65%) ;
+    margin-right: 10px;
+}
